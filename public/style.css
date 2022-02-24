@@ -1,0 +1,72 @@
+html {
+  background: url(https://media.istockphoto.com/photos/hourglass-flow-picture-id841445186?b=1&k=20&m=841445186&s=170667a&w=0&h=qHNbFMLTZPNj0eEJhPLIjLgNRUqhW4cCL6IdyU0MSYU=);
+  background-size: cover;
+  font-family: "helvertica neue";
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.digital-clock {
+  background-color: white;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 40px;
+  width: 35rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /*account for the height of the clock hands */
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+  background: pink;
+  height: 3px;
+}
+
+.min-hand {
+  background: black;
+}
+
+.hour-hand {
+  background: linear-gradient(to left, black 80%, transparent 80%);
+}
