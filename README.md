@@ -7,7 +7,7 @@ The is Day 2 of the [30 Day Vanilla JavaScript Coding Challenge](https://javascr
 
 ## Final Product Preview
 
-![home-page]()
+![home-page](https://github.com/ruchi222/clock-main/blob/master/public/docs/home.png)
 
 ### Concepts I've Learned/Re-learned From this Challenge:
 
