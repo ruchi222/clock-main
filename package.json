@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StephhyL/JS30-Clock.git"
+    "url": "https://github.com/ruchi222/clock-main"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/StephhyL/JS30-Clock/issues"
+    "url": "https://github.com/ruchi222/clock-main/issues"
   },
-  "homepage": "https://github.com/StephhyL/JS30-Clock#readme",
+  "homepage": "https://github.com/ruchi222/clock-main#readme",
   "dependencies": {
     "express": "^4.17.2"
   }
